@@ -117,13 +117,12 @@ udp-concurrency-lab/
 │   └── tasks.json             # Build, run & debug task automation (replaces traditional Makefile)
 ├── udp_server.c               # High-concurrency UDP server with session routing & race-window handling
 ├── udp_client.c               # Multi-port concurrent UDP client for stress testing
-└── README.md                  # This file
 ```
 
 ## 🛠️ Build & Run
 
 ### ⚙️ Pre-run Configuration
-Before compiling and running the client, you must set the correct target server IP. Run `ip addr` on your server machine to find its IP address, then open `udp_client.c` and update the server address definition in the source code accordingly.
+Before running the client, you must configure the target server IP. In your Linux environment, open a terminal and run `ip addr` to find the correct network interface IP. Then, open `udp_client.c` and update the server address definition in the source code accordingly.
 
 ### 📦 Compile & Run (VS Code Workflow)
 This project uses `.vscode/tasks.json` for build automation instead of a traditional Makefile.

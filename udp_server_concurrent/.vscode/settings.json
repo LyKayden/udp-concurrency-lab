@@ -1,0 +1,20 @@
+{
+  "files.associations": {
+    "*.tpp": "cpp",
+    "*.ixx": "cpp",
+    "*.cppm": "cpp",
+    "*.inl": "cpp",
+    "**/include/*.h": "cpp",
+    "in.h": "c",
+    "epoll.h": "c",
+    "resource.h": "c",
+    "numbers": "c",
+    "random": "c",
+    "wait.h": "c",
+    "socket.h": "c",
+    "inet.h": "c",
+    "time.h": "c",
+    "cstdlib": "c"
+  }
+}
+

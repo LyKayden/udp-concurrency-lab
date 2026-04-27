@@ -30,7 +30,7 @@ struct session {
     struct sockaddr_in src_addr;
     // 1 = active session, 0 = idle/closed
     int valid;
-    // Dedicated  server socket fd bound to this client session
+    // Dedicated server socket fd bound to this client session
     int dedicated_fd;
 } session_table[MAX_SESSIONS];
 
